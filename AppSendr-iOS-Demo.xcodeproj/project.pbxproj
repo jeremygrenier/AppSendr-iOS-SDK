@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FC552F219606BB9004E71AA /* ASAppsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC552F119606BB9004E71AA /* ASAppsListViewController.m */; };
+		3FC552F519606BCE004E71AA /* ASAppTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC552F419606BCE004E71AA /* ASAppTableViewCell.m */; };
+		3FC552F9196071C8004E71AA /* AppSendr.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC552F8196071C8004E71AA /* AppSendr.m */; };
+		3FC9F5E5196068530013FBC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC9F5E4196068530013FBC3 /* Foundation.framework */; };
+		3FC9F5E7196068530013FBC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC9F5E6196068530013FBC3 /* CoreGraphics.framework */; };
+		3FC9F5E9196068530013FBC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC9F5E8196068530013FBC3 /* UIKit.framework */; };
+		3FC9F62C196069030013FBC3 /* ASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9F61D196069030013FBC3 /* ASAppDelegate.m */; };
+		3FC9F62E196069030013FBC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC9F623196069030013FBC3 /* Main.storyboard */; };
+		3FC9F62F196069030013FBC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FC9F625196069030013FBC3 /* InfoPlist.strings */; };
+		3FC9F630196069030013FBC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC9F627196069030013FBC3 /* Images.xcassets */; };
+		3FC9F632196069030013FBC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9F62B196069030013FBC3 /* main.m */; };
+		3FD933F219619344002F01E0 /* ASBundlesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD933EF19619344002F01E0 /* ASBundlesListViewController.m */; };
+		3FD933F319619344002F01E0 /* ASBundleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD933F119619344002F01E0 /* ASBundleTableViewCell.m */; };
+		751CBC5B3BC8480596FDC6AE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8A0BA1FE934E91BC6C8D35 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FC552F019606BB9004E71AA /* ASAppsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAppsListViewController.h; sourceTree = "<group>"; };
+		3FC552F119606BB9004E71AA /* ASAppsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAppsListViewController.m; sourceTree = "<group>"; };
+		3FC552F319606BCE004E71AA /* ASAppTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAppTableViewCell.h; sourceTree = "<group>"; };
+		3FC552F419606BCE004E71AA /* ASAppTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAppTableViewCell.m; sourceTree = "<group>"; };
+		3FC552F7196071C8004E71AA /* AppSendr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSendr.h; sourceTree = "<group>"; };
+		3FC552F8196071C8004E71AA /* AppSendr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSendr.m; sourceTree = "<group>"; };
+		3FC9F5E1196068530013FBC3 /* AppSendr-iOS-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppSendr-iOS-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC9F5E4196068530013FBC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FC9F5E6196068530013FBC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3FC9F5E8196068530013FBC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3FC9F605196068530013FBC3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3FC9F61C196069030013FBC3 /* ASAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAppDelegate.h; sourceTree = "<group>"; };
+		3FC9F61D196069030013FBC3 /* ASAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAppDelegate.m; sourceTree = "<group>"; };
+		3FC9F624196069030013FBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FC9F626196069030013FBC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FC9F627196069030013FBC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3FC9F629196069030013FBC3 /* AppSendr-iOS-Demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppSendr-iOS-Demo-Info.plist"; sourceTree = "<group>"; };
+		3FC9F62A196069030013FBC3 /* AppSendr-iOS-Demo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppSendr-iOS-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		3FC9F62B196069030013FBC3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FD933EE19619344002F01E0 /* ASBundlesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBundlesListViewController.h; sourceTree = "<group>"; };
+		3FD933EF19619344002F01E0 /* ASBundlesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBundlesListViewController.m; sourceTree = "<group>"; };
+		3FD933F019619344002F01E0 /* ASBundleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBundleTableViewCell.h; sourceTree = "<group>"; };
+		3FD933F119619344002F01E0 /* ASBundleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBundleTableViewCell.m; sourceTree = "<group>"; };
+		5812E1C236AB4B18A04F3340 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		9F8A0BA1FE934E91BC6C8D35 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FC9F5DE196068530013FBC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC9F5E7196068530013FBC3 /* CoreGraphics.framework in Frameworks */,
+				3FC9F5E9196068530013FBC3 /* UIKit.framework in Frameworks */,
+				3FC9F5E5196068530013FBC3 /* Foundation.framework in Frameworks */,
+				751CBC5B3BC8480596FDC6AE /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC552EF19606B95004E71AA /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				3FC552F019606BB9004E71AA /* ASAppsListViewController.h */,
+				3FC552F119606BB9004E71AA /* ASAppsListViewController.m */,
+				3FC552F319606BCE004E71AA /* ASAppTableViewCell.h */,
+				3FC552F419606BCE004E71AA /* ASAppTableViewCell.m */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		3FC552F61960716B004E71AA /* AppSendr-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				3FC552F7196071C8004E71AA /* AppSendr.h */,
+				3FC552F8196071C8004E71AA /* AppSendr.m */,
+			);
+			path = "AppSendr-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		3FC9F5D8196068530013FBC3 = {
+			isa = PBXGroup;
+			children = (
+				3FC552F61960716B004E71AA /* AppSendr-iOS-SDK */,
+				3FC9F5EA196068530013FBC3 /* AppSendr-iOS-Demo */,
+				3FC9F5E3196068530013FBC3 /* Frameworks */,
+				3FC9F5E2196068530013FBC3 /* Products */,
+				5812E1C236AB4B18A04F3340 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		3FC9F5E2196068530013FBC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC9F5E1196068530013FBC3 /* AppSendr-iOS-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FC9F5E3196068530013FBC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FC9F5E4196068530013FBC3 /* Foundation.framework */,
+				3FC9F5E6196068530013FBC3 /* CoreGraphics.framework */,
+				3FC9F5E8196068530013FBC3 /* UIKit.framework */,
+				3FC9F605196068530013FBC3 /* XCTest.framework */,
+				9F8A0BA1FE934E91BC6C8D35 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FC9F5EA196068530013FBC3 /* AppSendr-iOS-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3FC9F61B196069030013FBC3 /* Application */,
+				3FC9F61E196069030013FBC3 /* Categories */,
+				3FC9F61F196069030013FBC3 /* Interface */,
+				3FC9F622196069030013FBC3 /* Ressources */,
+				3FC9F628196069030013FBC3 /* Supporting Files */,
+			);
+			path = "AppSendr-iOS-Demo";
+			sourceTree = "<group>";
+		};
+		3FC9F61B196069030013FBC3 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3FC9F61C196069030013FBC3 /* ASAppDelegate.h */,
+				3FC9F61D196069030013FBC3 /* ASAppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3FC9F61E196069030013FBC3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3FC9F61F196069030013FBC3 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				3FC552EF19606B95004E71AA /* Apps */,
+				3FD933ED19619344002F01E0 /* Bundles */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		3FC9F622196069030013FBC3 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				3FC9F623196069030013FBC3 /* Main.storyboard */,
+				3FC9F625196069030013FBC3 /* InfoPlist.strings */,
+				3FC9F627196069030013FBC3 /* Images.xcassets */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		3FC9F628196069030013FBC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FC9F629196069030013FBC3 /* AppSendr-iOS-Demo-Info.plist */,
+				3FC9F62A196069030013FBC3 /* AppSendr-iOS-Demo-Prefix.pch */,
+				3FC9F62B196069030013FBC3 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FD933ED19619344002F01E0 /* Bundles */ = {
+			isa = PBXGroup;
+			children = (
+				3FD933EE19619344002F01E0 /* ASBundlesListViewController.h */,
+				3FD933EF19619344002F01E0 /* ASBundlesListViewController.m */,
+				3FD933F019619344002F01E0 /* ASBundleTableViewCell.h */,
+				3FD933F119619344002F01E0 /* ASBundleTableViewCell.m */,
+			);
+			path = Bundles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FC9F5E0196068530013FBC3 /* AppSendr-iOS-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC9F615196068540013FBC3 /* Build configuration list for PBXNativeTarget "AppSendr-iOS-Demo" */;
+			buildPhases = (
+				00FD10830BA5499AA15CB3BD /* Check Pods Manifest.lock */,
+				3FC9F5DD196068530013FBC3 /* Sources */,
+				3FC9F5DE196068530013FBC3 /* Frameworks */,
+				3FC9F5DF196068530013FBC3 /* Resources */,
+				AF3673D4099344FA81601C3F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppSendr-iOS-Demo";
+			productName = "AppSendr-iOS-Demo";
+			productReference = 3FC9F5E1196068530013FBC3 /* AppSendr-iOS-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FC9F5D9196068530013FBC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jeremy Grenier";
+				TargetAttributes = {
+					3FC9F5E0196068530013FBC3 = {
+						DevelopmentTeam = 7MM2M9KD2W;
+					};
+				};
+			};
+			buildConfigurationList = 3FC9F5DC196068530013FBC3 /* Build configuration list for PBXProject "AppSendr-iOS-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FC9F5D8196068530013FBC3;
+			productRefGroup = 3FC9F5E2196068530013FBC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FC9F5E0196068530013FBC3 /* AppSendr-iOS-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FC9F5DF196068530013FBC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC9F630196069030013FBC3 /* Images.xcassets in Resources */,
+				3FC9F62E196069030013FBC3 /* Main.storyboard in Resources */,
+				3FC9F62F196069030013FBC3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00FD10830BA5499AA15CB3BD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF3673D4099344FA81601C3F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FC9F5DD196068530013FBC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD933F319619344002F01E0 /* ASBundleTableViewCell.m in Sources */,
+				3FD933F219619344002F01E0 /* ASBundlesListViewController.m in Sources */,
+				3FC552F519606BCE004E71AA /* ASAppTableViewCell.m in Sources */,
+				3FC552F219606BB9004E71AA /* ASAppsListViewController.m in Sources */,
+				3FC9F632196069030013FBC3 /* main.m in Sources */,
+				3FC552F9196071C8004E71AA /* AppSendr.m in Sources */,
+				3FC9F62C196069030013FBC3 /* ASAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FC9F623196069030013FBC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC9F624196069030013FBC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FC9F625196069030013FBC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC9F626196069030013FBC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FC9F613196068540013FBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FC9F614196068540013FBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FC9F616196068540013FBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5812E1C236AB4B18A04F3340 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppSendr-iOS-Demo/Supporting Files/AppSendr-iOS-Demo-Prefix.pch";
+				INFOPLIST_FILE = "AppSendr-iOS-Demo/Supporting Files/AppSendr-iOS-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3FC9F617196068540013FBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5812E1C236AB4B18A04F3340 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppSendr-iOS-Demo/Supporting Files/AppSendr-iOS-Demo-Prefix.pch";
+				INFOPLIST_FILE = "AppSendr-iOS-Demo/Supporting Files/AppSendr-iOS-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FC9F5DC196068530013FBC3 /* Build configuration list for PBXProject "AppSendr-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC9F613196068540013FBC3 /* Debug */,
+				3FC9F614196068540013FBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC9F615196068540013FBC3 /* Build configuration list for PBXNativeTarget "AppSendr-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC9F616196068540013FBC3 /* Debug */,
+				3FC9F617196068540013FBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FC9F5D9196068530013FBC3 /* Project object */;
+}
